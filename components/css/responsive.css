@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px){
+    .content h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .side-bar{
+        height: 50px;
+        width: 100%;
+        top: auto;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+        box-sizing: border-box;
+    }
+    .side-bar .social-links img{
+        width: 25px;
+        position: unset;
+        transform: none;
+        display: flex;
+        float: left;
+        
+    }
+    .side-bar .useful-links img{
+        width: 25px;
+        position: unset;
+        display: flex;
+        float: left;
+        
+    }
+    .side-bar img{
+        width: 18px; 
+        margin: 0px;
+    }
+    .hero {
+       
+        background-image: linear-gradient(#000e2e, #004f5a);
+        
+    }
+}
